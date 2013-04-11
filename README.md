@@ -4,3 +4,6 @@ be sure to use this with the collection system detailed here:
 https://github.com/mikedowney/Bonneville-Data-Logger
 
 ![screenshot](webpage.jpg)
+
+![screenshot](googleearth.jpg)
+
