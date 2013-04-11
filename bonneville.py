@@ -48,6 +48,7 @@ else:
 
 
 
+
 db=MySQLdb.connect(user="root",passwd="aviator",db="speed_tracker")
 c=db.cursor(MySQLdb.cursors.DictCursor)
 sql_string = "SELECT dataset_num, date_time, latitude, longitude, speed, altitude, GPS_status, engine_rpm, egt, CHT FROM datapoints where dataset_num = %s order by date_time" % dataset
